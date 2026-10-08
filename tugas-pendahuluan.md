@@ -280,3 +280,5 @@ Pada JSONPlaceholder klasik, operasi POST, PUT, PATCH, dan DELETE disimulasikan 
 
 1. JSONPlaceholder Guide - Typicode: https://github.com/typicode/jsonplaceholder
 2. JSONPlaceholder API documentation: https://jsonplaceholder.typicode.com/
+
+png
