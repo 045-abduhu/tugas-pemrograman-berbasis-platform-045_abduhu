@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tugas Mandiri 1 - Kartu Komponen</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px; background: #f1f5f9;
+      color: #1e293b; font-family: Arial, sans-serif;
+    }
+    .card {
+      width: 100%; max-width: 340px; margin: 24px auto; padding: 24px;
+      border: 1px solid #e2e8f0; border-radius: 16px; background: #fff;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, .08); text-align: center;
+    }
+    .avatar {
+      width: 96px; height: 96px; border-radius: 50%; object-fit: cover;
+      background: #dbeafe;
+    }
+    .card h1 { margin: 16px 0 8px; font-size: 1.35rem; }
+    .card p { margin: 0; color: #64748b; }
+    .btn {
+      display: inline-block; margin-top: 20px; padding: 11px 18px;
+      border: 0; border-radius: 9px; background: #2563eb;
+      color: white; font-weight: 700; cursor: pointer;
+    }
+    .btn:hover { background: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="avatar"
+      src="c:\Users\abduh\OneDrive\Gambar\jpg.jpeg"
+      alt="Foto profil contoh">
+    <h1>Abduhu</h1>
+    <p>NIM: 2024520045</p>
+    <button class="btn" type="button" onclick="alert('Contoh tombol Lihat Profil')">Lihat Profil</button>
+  </main>
+</body>
+</html>
